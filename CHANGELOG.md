@@ -2,6 +2,10 @@
 
 ## 0.82.1 — Unreleased
 
+### Fixed
+
+- iCloud Sync: re-send account snapshots whose pending CloudKit save was dropped without a result, instead of leaving them unpublished until relaunch.
+
 ## 0.82.0 — 2026-10-26
 
 ### Highlights
